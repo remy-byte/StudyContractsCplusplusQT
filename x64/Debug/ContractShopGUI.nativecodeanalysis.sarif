@@ -1,0 +1,4574 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Contract', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/contract.h"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 2,
+                  "endLine": 22,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Contract::{ctor}",
+                  "decoratedName": "??0Contract@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Contract::set_Duration' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/contract.h"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 7,
+                  "endLine": 46,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Contract::set_Duration",
+                  "decoratedName": "?set_Duration@Contract@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class RepositoryContract', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 11,
+                  "endLine": 43,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryContract::{dtor}",
+                  "decoratedName": "??1RepositoryContract@@UEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoContractStake::store_entity",
+                  "decoratedName": "?store_entity@RepoContractStake@@UEAAXAEBVContract@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                },
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoContractStake::delete_entity",
+                  "decoratedName": "?delete_entity@RepoContractStake@@UEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 136,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                },
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoContractStake::get_All",
+                  "decoratedName": "?get_All@RepoContractStake@@UEAA?AV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 143,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 143,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 143,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+                          },
+                          "region": {
+                            "startLine": 150,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'StudyContracts::clearCart' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 7,
+                  "endLine": 29,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudyContracts::clearCart",
+                  "decoratedName": "?clearCart@StudyContracts@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'StudyContracts::get_All_Cart' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 26,
+                  "endLine": 35,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudyContracts::get_All_Cart",
+                  "decoratedName": "?get_All_Cart@StudyContracts@@QEAAAEBV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 25,
+                  "endLine": 42,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudyContracts::fillCart",
+                  "decoratedName": "?fillCart@StudyContracts@@QEAAX_KV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 85
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 87
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 36,
+                  "endLine": 42,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudyContracts::fillCart",
+                  "decoratedName": "?fillCart@StudyContracts@@QEAAX_KV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 85
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 87
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 27,
+                  "endLine": 50,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudyContracts::fillCart",
+                  "decoratedName": "?fillCart@StudyContracts@@QEAAX_KV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 85
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 87
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 54
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 57
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 87
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 89
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 38,
+                  "endLine": 50,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudyContracts::fillCart",
+                  "decoratedName": "?fillCart@StudyContracts@@QEAAX_KV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 85
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 87
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 54
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 57
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 87
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 89
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 83,
+                  "endLine": 45,
+                  "endColumn": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UndoAdd::doUndo",
+                  "decoratedName": "?doUndo@UndoAdd@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 71
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 83
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 83
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 86,
+                  "endLine": 61,
+                  "endColumn": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UndoModify::doUndo",
+                  "decoratedName": "?doUndo@UndoModify@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 74
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 86
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 86
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26403",
+          "message": {
+            "text": "Reset or explicitly delete an owner<T> pointer 'mainVBoxLayout' (r.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 7,
+                  "endLine": 19,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26403",
+          "message": {
+            "text": "Reset or explicitly delete an owner<T> pointer 'HBoxLayout' (r.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 10,
+                  "endLine": 22,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programe_instalate/qt/6.5.0/msvc2019_64/include/QtWidgets/qboxlayout.h"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26403",
+          "message": {
+            "text": "Reset or explicitly delete an owner<T> pointer 'formLayout' (r.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programe_instalate/qt/6.5.0/msvc2019_64/include/QtWidgets/qboxlayout.h"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "Symbol 'widget' is never tested for nullness, it can be marked as not_null (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 19,
+                  "endLine": 13,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'widget' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::setup_UI",
+                  "decoratedName": "?setup_UI@ShoppingGUI@@AEAAXPEAVQWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26822",
+          "message": {
+            "text": "Dereferencing a null pointer 'nullptr' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 9,
+                  "endLine": 68,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::populateList::<lambda_1>::<lambda_invoker_cdecl>",
+                  "decoratedName": "?<lambda_invoker_cdecl>@<lambda_1>@?1??populateList@ShoppingGUI@@AEAAXV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@@Z@SA@AEBVContract@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26822",
+          "message": {
+            "text": "Dereferencing a null pointer 'nullptr' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 9,
+                  "endLine": 68,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::populateList::<lambda_1>::<lambda_invoker_vectorcall>",
+                  "decoratedName": "?<lambda_invoker_vectorcall>@<lambda_1>@?1??populateList@ShoppingGUI@@AEAAXV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@@Z@SQ@AEBVContract@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '(this->ShoppingGUI::postsList)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 5,
+                  "endLine": 59,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::populateList",
+                  "decoratedName": "?populateList@ShoppingGUI@@AEAAXV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 34,
+                  "endLine": 63,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::populateList",
+                  "decoratedName": "?populateList@ShoppingGUI@@AEAAXV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 59
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 50,
+                  "endLine": 63,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::populateList",
+                  "decoratedName": "?populateList@ShoppingGUI@@AEAAXV?$vector@VContract@@V?$allocator@VContract@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 59
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'number_of_generations' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::connect::<lambda_1>::()",
+                  "decoratedName": "??R<lambda_1>@?1??connect@ShoppingGUI@@AEAAXXZ@QEBA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '((this->ShoppingGUI::connect::<lambda_1>::__this)->ShoppingGUI::numberofgenerations)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 41,
+                  "endLine": 79,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::connect::<lambda_1>::()",
+                  "decoratedName": "??R<lambda_1>@?1??connect@ShoppingGUI@@AEAAXXZ@QEBA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 71,
+                  "endLine": 80,
+                  "endColumn": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::connect::<lambda_1>::()",
+                  "decoratedName": "??R<lambda_1>@?1??connect@ShoppingGUI@@AEAAXXZ@QEBA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 80
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 71
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 71
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 32,
+                  "endLine": 81,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::connect::<lambda_1>::()",
+                  "decoratedName": "??R<lambda_1>@?1??connect@ShoppingGUI@@AEAAXXZ@QEBA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 80
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 71
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '((this->ShoppingGUI::connect::<lambda_2>::__this)->ShoppingGUI::addLine)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 30,
+                  "endLine": 88,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::connect::<lambda_2>::()",
+                  "decoratedName": "??R<lambda_2>@?1??connect@ShoppingGUI@@AEAAXXZ@QEBA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::connect::<lambda_2>::()",
+                  "decoratedName": "??R<lambda_2>@?1??connect@ShoppingGUI@@AEAAXXZ@QEBA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 36,
+                  "endLine": 91,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::connect::<lambda_2>::()",
+                  "decoratedName": "??R<lambda_2>@?1??connect@ShoppingGUI@@AEAAXXZ@QEBA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 59
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 32,
+                  "endLine": 106,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::connect::<lambda_3>::()",
+                  "decoratedName": "??R<lambda_3>@?1??connect@ShoppingGUI@@AEAAXXZ@QEBA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26434",
+          "message": {
+            "text": "Function 'ShoppingGUI::connect' hides a non-virtual function 'QObject::connect'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 19,
+                  "endLine": 73,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShoppingGUI::connect",
+                  "decoratedName": "?connect@ShoppingGUI@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/contract.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "42fdd6b8e71722f426ad212f6190a1f3276bac51f21b121315e14108a4bc0844"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/repository_contract.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5151dd83e36c136b91cc14bdd75f08e1744e313ffb87d4a3a922c2add35d6c50"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/study_contract.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d5a489bc82668a3bfed3a62b26c263134900d47974f4845ce9225fcdc1aac9ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/undo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e436e8c5d41a43c9252051927850b0f2810f9cc1f97b04529cdb69bf33187431"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/ContractShopGUI.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a9d0acdbbd64961d37f27a1eeafeaf259a7c4b6a66c087351d27c19fdfe66dc4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Programe_instalate/qt/6.5.0/msvc2019_64/include/QtWidgets/qboxlayout.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "88295e5323430a10b9ce566f3741ab47056dc02f90fa75568a164fe284475987"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/remus/desktop/proiecte/study_contracts_gui/study_contracts_gui/contractshopgui.h"
+          },
+          "hashes": {
+            "sha-256": "a2221c467bfd196666834b1ddbd239453a24192b36d4096e17487c6efcf3cb83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/remus/desktop/proiecte/study_contracts_gui/study_contracts_gui/contract_service.h"
+          },
+          "hashes": {
+            "sha-256": "7a66ed6ba387bc526c3f77b2b05aec42c5c64f262761851e75d3d7a21e783c01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/remus/desktop/proiecte/study_contracts_gui/study_contracts_gui/validator.h"
+          },
+          "hashes": {
+            "sha-256": "f869cd7ccdc28802e6b3b9ea22c12057f7bcbaad32a39a382bcfc2f8278b64da"
+          }
+        }
+      ]
+    }
+  ]
+}

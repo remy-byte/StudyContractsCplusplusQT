@@ -1,0 +1,296 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Contract', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/contract.h"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 2,
+                  "endLine": 22,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Contract::{ctor}",
+                  "decoratedName": "??0Contract@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Contract::set_Duration' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/contract.h"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 7,
+                  "endLine": 46,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Contract::set_Duration",
+                  "decoratedName": "?set_Duration@Contract@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'message' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/validator.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 3,
+                  "endLine": 50,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "<<",
+                  "decoratedName": "??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVValidateException@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26822",
+          "message": {
+            "text": "Dereferencing a null pointer 'nullptr' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/validator.cpp"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 14,
+                  "endLine": 60,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ValidateException::what",
+                  "decoratedName": "?what@ValidateException@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'message' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/validator.cpp"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 3,
+                  "endLine": 63,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ValidateException::what",
+                  "decoratedName": "?what@ValidateException@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/validator.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/contract.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "42fdd6b8e71722f426ad212f6190a1f3276bac51f21b121315e14108a4bc0844"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/validator.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "cad9ea586cbe814dc8aa317aa9f9e5ae7d5eea8977804985797569669f883b09"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/remus/desktop/proiecte/study_contracts_gui/study_contracts_gui/validator.h"
+          },
+          "hashes": {
+            "sha-256": "f869cd7ccdc28802e6b3b9ea22c12057f7bcbaad32a39a382bcfc2f8278b64da"
+          }
+        }
+      ]
+    }
+  ]
+}

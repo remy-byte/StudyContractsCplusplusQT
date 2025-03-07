@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Remus\Desktop\proiecte\Study_contracts_GUI\Study_contracts_GUI\x64\Debug\rcc\</FILEPATH>
+      <FILENAME>qrc_Study_contracts_GUI.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'qInitResources_Study_contracts_GUI' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>qInitResources_Study_contracts_GUI</FUNCTION>
+    <DECORATED>?qInitResources_Study_contracts_GUI@@YAHXZ</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Remus\Desktop\proiecte\Study_contracts_GUI\Study_contracts_GUI\x64\Debug\rcc\</FILEPATH>
+      <FILENAME>qrc_Study_contracts_GUI.cpp</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'qCleanupResources_Study_contracts_GUI' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>qCleanupResources_Study_contracts_GUI</FUNCTION>
+    <DECORATED>?qCleanupResources_Study_contracts_GUI@@YAHXZ</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Remus\Desktop\proiecte\Study_contracts_GUI\Study_contracts_GUI\x64\Debug\rcc\</FILEPATH>
+      <FILENAME>qrc_Study_contracts_GUI.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::initializer::{ctor}</FUNCTION>
+    <DECORATED>??0initializer@?A0xf8d6b7eb@@QEAA@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Remus\Desktop\proiecte\Study_contracts_GUI\Study_contracts_GUI\x64\Debug\rcc\</FILEPATH>
+      <FILENAME>qrc_Study_contracts_GUI.cpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'struct `anonymous-namespace'::initializer', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::initializer::{dtor}</FUNCTION>
+    <DECORATED>??1initializer@?A0xf8d6b7eb@@QEAA@XZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Remus\Desktop\proiecte\Study_contracts_GUI\Study_contracts_GUI\x64\Debug\rcc\</FILEPATH>
+      <FILENAME>qrc_Study_contracts_GUI.cpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>86</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'qCleanupResources_Study_contracts_GUI()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::initializer::{dtor}</FUNCTION>
+    <DECORATED>??1initializer@?A0xf8d6b7eb@@QEAA@XZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

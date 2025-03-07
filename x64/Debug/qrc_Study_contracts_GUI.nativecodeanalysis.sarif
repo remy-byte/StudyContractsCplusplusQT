@@ -1,0 +1,177 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'qInitResources_Study_contracts_GUI' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/x64/Debug/rcc/qrc_Study_contracts_GUI.cpp"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 5,
+                  "endLine": 30,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "qInitResources_Study_contracts_GUI",
+                  "decoratedName": "?qInitResources_Study_contracts_GUI@@YAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'qCleanupResources_Study_contracts_GUI' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/x64/Debug/rcc/qrc_Study_contracts_GUI.cpp"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 5,
+                  "endLine": 36,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "qCleanupResources_Study_contracts_GUI",
+                  "decoratedName": "?qCleanupResources_Study_contracts_GUI@@YAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/x64/Debug/rcc/qrc_Study_contracts_GUI.cpp"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 8,
+                  "endLine": 48,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`anonymous-namespace'::initializer::{ctor}",
+                  "decoratedName": "??0initializer@?A0xf8d6b7eb@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'struct `anonymous-namespace'::initializer', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/x64/Debug/rcc/qrc_Study_contracts_GUI.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 9,
+                  "endLine": 49,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`anonymous-namespace'::initializer::{dtor}",
+                  "decoratedName": "??1initializer@?A0xf8d6b7eb@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26447",
+          "message": {
+            "text": "The function is declared 'noexcept' but calls function 'qCleanupResources_Study_contracts_GUI()' which may throw exceptions (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/x64/Debug/rcc/qrc_Study_contracts_GUI.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 25,
+                  "endLine": 49,
+                  "endColumn": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`anonymous-namespace'::initializer::{dtor}",
+                  "decoratedName": "??1initializer@?A0xf8d6b7eb@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Remus/Desktop/proiecte/Study_contracts_GUI/Study_contracts_GUI/x64/Debug/rcc/qrc_Study_contracts_GUI.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "04a028dc3c1f5aa0a25a5ce10cee365dbde0c63da6a5d6bcbec3e5aa30c7ed73"
+          }
+        }
+      ]
+    }
+  ]
+}

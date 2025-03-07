@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Remus\Desktop\proiecte\Study_contracts_GUI\Study_contracts_GUI\</FILEPATH>
+      <FILENAME>contract.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Contract', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Contract::{ctor}</FUNCTION>
+    <DECORATED>??0Contract@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Remus\Desktop\proiecte\Study_contracts_GUI\Study_contracts_GUI\</FILEPATH>
+      <FILENAME>contract.h</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Contract::set_Duration' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Contract::set_Duration</FUNCTION>
+    <DECORATED>?set_Duration@Contract@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Remus\Desktop\proiecte\Study_contracts_GUI\Study_contracts_GUI\</FILEPATH>
+      <FILENAME>contract.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'compare_duration' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>compare_duration</FUNCTION>
+    <DECORATED>?compare_duration@@YA_NAEBVContract@@0@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

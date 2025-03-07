@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/remus/desktop/proiecte/study_contracts_gui/study_contracts_gui/x64/debug/moc/moc_study_contracts_gui.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b18d1d6c912adcb78e5e4aad6d55a0406f3e0f6a6b09a801c77b5fe31126c9e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/remus/desktop/proiecte/study_contracts_gui/study_contracts_gui/study_contracts_gui.h"
+          },
+          "hashes": {
+            "sha-256": "4bd20239b3741cffca23ddc3ceb1aa9ba7caf444d04d0256efcb7b314b6a0a28"
+          }
+        }
+      ]
+    }
+  ]
+}
